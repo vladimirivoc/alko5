@@ -1,0 +1,342 @@
+body
+{
+  background-color:#cbdbe0
+}
+
+.bigDiv
+{
+  background-color:#545469;
+  position:absolute;
+  top:166px;
+  width:55%;
+  height:7187px;
+  z-index:-4;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  -webkit-box-shadow:0 0 49px -3px rgba(0,0,0,0.51);
+  -moz-box-shadow:0 0 49px -3px rgba(0,0,0,0.51);
+  box-shadow:0 0 49px -3px rgba(0,0,0,0.51);
+  margin-bottom:100px
+}
+
+h1
+{
+  font-size:10em;
+  letter-spacing:.5em;
+  font-family:"Futura";
+  color:rgba(255,255,255,0.859);
+  font-weight:700;
+  line-height:1.2;
+  text-shadow:0 0 19.72px rgba(0,0,0,0.19)
+}
+
+h2
+{
+  font-family:"CenturyGothicRegular";
+  color:#fff;
+  font-size:6em;
+  margin-bottom:0
+}
+
+h3
+{
+  font-family:"CenturyGothicRegular";
+  color:#fff;
+  font-size:10em;
+  margin-bottom:0;
+  letter-spacing:30px;
+  margin-left:25px
+}
+
+p
+{
+  color:#fff
+}
+
+.spacingFix
+{
+  letter-spacing:20px
+}
+
+.siteName
+{
+  margin-top:220px;
+  text-align:center
+}
+
+.splash1
+{
+  position:absolute;
+  left:-55.8%;
+  right:0;
+  top:100px;
+  margin-left:auto;
+  margin-right:auto;
+  opacity:.8
+}
+
+.splash2
+{
+  left:1300px;
+  right:0;
+  top:1500px
+}
+
+.ice{
+  left:0;
+  right:1300px;
+  top:2800px
+}
+
+.backParalx
+{
+  margin-left:auto;
+  margin-right:auto;
+  z-index:-6;
+  position:absolute
+}
+
+.menu
+{
+  background-color:#545469;
+  padding-bottom:20px;
+  text-align:center;
+  margin-top:30px
+}
+
+@font-face
+{
+  font-family:"CenturyGothicRegular";
+  src:url(../fonts/CenturyGothicRegular/CenturyGothicRegular.eot);
+  src:url(../fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix)format(embedded-opentype),url(../fonts/CenturyGothicRegular/CenturyGothicRegular.woff) format("woff"),url(../fonts/CenturyGothicRegular/CenturyGothicRegular.ttf) format("truetype");
+  font-style:normal;
+  font-weight:400
+}
+
+.menuDivdr
+{
+  width:100%
+}
+
+ul
+{
+  margin-top:40px
+}
+
+ul li
+{
+  color:#fff;
+  display:inline;
+  font-family:serif;
+  font-size:2.8em;
+  margin-right:30px
+}
+
+a
+{
+  -moz-text-decoration-color:red!important;
+  text-decoration-color:red!important;
+  color:#fff!important
+}
+
+.vodka
+{
+  background-color:#fff;
+  background:url(../img/vodkaBG.jpg)no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover
+}
+
+.cognac
+{
+  background-color:#fff;
+  background:url(../img/cognacBG.jpg)no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover
+}
+
+.alcohol
+{
+  background-color:#fff;
+  background:url(../img/alcoholBG.jpg)no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover
+}
+
+.whiskey
+{
+  background-color:#fff;
+  background:url(../img/whiskeyBG.jpg)no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover
+}
+
+.rum
+{
+  background-color:#fff;
+  background:url(../img/rumBG.jpg)no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover
+}
+
+.FAQ
+{
+  padding:0 70px 70px;
+  background-color:#545469
+}
+
+.textFaq
+{
+  word-wrap:break-word
+}
+
+.card
+{
+  min-height:580px
+}
+
+.margin
+{
+  margin-top:150px
+}
+
+.shadow
+{
+  -webkit-box-shadow:0 0 49px -3px rgba(0,0,0,0.4);
+  -moz-box-shadow:0 0 49px -3px rgba(0,0,0,0.4);
+  box-shadow:0 0 49px -3px rgba(0,0,0,0.4)
+}
+
+.IMG
+{
+  width:100%;
+  height:auto
+}
+
+.endDiv
+{
+  margin-top:130px;
+  margin-bottom:40px
+}
+
+.cardsPadding
+{
+  padding-top:130px
+}
+
+.blueDiv
+{
+  height:580px;
+  background-color:#86b1c2;
+  opacity:.69;
+  margin-top:-500px;
+  z-index:-4
+}
+
+.cognacDiv
+{
+  height:580px;
+  background-color:#d67535;
+  opacity:.69;
+  margin-top:-500px;
+  z-index:-4
+}
+
+.dividerIMG
+{
+  width:100%;
+  opacity:.7
+}
+
+.divider
+{
+  margin-top:200px
+}
+
+@media only screen and (max-width: 500px) {
+  .bigDiv
+  {
+    width:100%
+  }
+  
+  .siteName
+  {
+    margin-top:30px
+  }
+  
+  h1
+  {
+    font-size:3em
+  }
+  
+  h2
+  {
+    font-size:2em
+  }
+  
+  h3
+  {
+    font-size:5em;
+    margin-bottom:0;
+    letter-spacing:15px
+  }
+  
+  ul li
+  {
+    font-size:1em;
+    margin-right:5px
+  }
+  
+  ul li:first-of-type
+  {
+    margin-right:0
+  }
+  
+  ul
+  {
+    margin-top:10px
+  }
+  
+  .card
+  {
+    height:250px
+  }
+  
+  .cardsPadding
+  {
+    padding-top:40px
+  }
+  
+  .margin
+  {
+    margin-top:0
+  }
+  
+  .card
+  {
+    min-height:280px
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+ ul li
+  {
+    font-size:2em;
+    margin-right:5px
+  }
+  .h2{
+    font-size: 4em;
+  }
+}

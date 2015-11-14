@@ -1,6 +1,9 @@
 body
 {
-  background-color:#cbdbe0
+  background-color:#cbdbe0;
+  max-width: 100%;
+    overflow-x: hidden;
+  
 }
 
 .bigDiv
@@ -18,7 +21,7 @@ body
   -webkit-box-shadow:0 0 49px -3px rgba(0,0,0,0.51);
   -moz-box-shadow:0 0 49px -3px rgba(0,0,0,0.51);
   box-shadow:0 0 49px -3px rgba(0,0,0,0.51);
-  margin-bottom:100px
+  
 }
 
 h1
@@ -79,9 +82,11 @@ p
 
 .splash2
 {
-  left:1300px;
+  left:70%;
   right:0;
-  top:1500px
+  top:1500px;
+  overflow:hidden;
+
 }
 
 .ice{
@@ -130,7 +135,7 @@ ul li
   color:#fff;
   display:inline;
   font-family:serif;
-  font-size:2.8em;
+  font-size:3.5em;
   margin-right:30px
 }
 
@@ -295,7 +300,7 @@ a
   
   ul li
   {
-    font-size:1em;
+    font-size:1.3em;
     margin-right:5px
   }
   
@@ -328,15 +333,23 @@ a
   {
     min-height:280px
   }
+
+}
+  @media only screen and (max-width: 1500px){
+ul li
+  {
+    font-size:3em;
+    margin-right:3px;
+  }
+
+  
 }
 
-@media only screen and (max-width: 1500px) {
- ul li
-  {
-    font-size:2em;
-    margin-right:5px
-  }
-  .h2{
-    font-size: 4em;
-  }
+@media only screen and (max-width: 1000px){
+.FAQ
+{
+  height: 350px;
+}
+
+  
 }
